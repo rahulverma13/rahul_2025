@@ -132,7 +132,7 @@ Start the preview server in the terminal,
 The terminal output from `make` shows the server address. "Cmd" or "Ctl" click the http location to open the preview server in a browser. Here is an example Server address message, click on the Server address to load:...
 
   ```text
-  http://0.0.0.0:4100/student_2025/
+http://0.0.0.0:4100/rahul_student_2025/  
   ```
 
 ### Regeneration of web application

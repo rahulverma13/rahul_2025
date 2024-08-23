@@ -5,4 +5,5 @@ description: Home Page
 hide: true
 ---
 
-My journey starts here.
+Rahul Verma's 2024-2025 AP CSA Notebook.\n
+
