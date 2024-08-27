@@ -2,8 +2,8 @@ title: Nighthawk Pages
 description: "Class of 2025"
 owner_name: Rahul Verma
 github_username: rahulverma12
-github_repo: "rahul_student_2025" 
-baseurl: "/rahul_student_2025"
+github_repo: "rahul_2025" 
+baseurl: "/rahul_2025"
 future: true
 remote_theme: jekyll/minima
 minima:
