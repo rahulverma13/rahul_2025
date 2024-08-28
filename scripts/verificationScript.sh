@@ -75,12 +75,12 @@ echo -n "Project Directory: "
 pwd
 
 # Project name (assuming the project name is the directory name)
-project_name=$(basename "$PWD")
+project_name=rahul_2025
 echo -n "Project Name: $project_name"
 
 # GitHub repo name (assuming the directory is a git repo)
 if [ -d ".git" ]; then
-    echo -n "GitHub Repo Name: "
+    echo -n "GitHub Repo Name: rahul_2025"
     repo_url=$(git config --get remote.origin.url)
     if [[ $repo_url =~ ^https://github.com/([^/]+)/([^/]+)\.git$ ]]; then
         echo "${BASH_REMATCH[2]}"
