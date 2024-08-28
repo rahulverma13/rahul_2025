@@ -12,7 +12,7 @@ Welcome to my AP CSA website! Here’s a little about myself:
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
     <div style="flex: 0 0 150px; margin-right: 20px;">
-        <img src="../images/usaco.png" alt="Competitive Programming" style="width: 100%; border-radius: 8px;">
+        <img src="https://github.com/user-attachments/assets/58bcc164-06b4-4494-94c4-5a06c0c1f8c8" alt="Competitive Programming" style="width: 100%; border-radius: 8px;">
     </div>
     <div style="flex: 1;">
         <h3>Competitive Programming</h3>
