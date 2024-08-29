@@ -158,17 +158,20 @@ hide: true
 
         async function fetchRandomSentences() {
             try {
+                // get sentence from api
                 const response = await fetch('https://api.quotable.io/quotes/random?limit=1');
                 const data = await response.json();
                 return data.map(quote => quote.content).join(' ');
             } catch (error) {
+                // if something goes worng, just do a default sentence.
                 console.error('Error fetching sentences:', error);
-                return 'The quick brown fox jumps over the lazy dog. Pack my box with five dozen liquor jugs. How vexingly quick daft zebras jump!';
+                return 'The quick brown fox jumps over the lazy dog.';
             }
         }
 
         function updateDisplay() {
             let displayHTML = '';
+            // update character colors dependent on what they typed
             for (let i = 0; i < currentSentence.length; i++) {
                 if (i < currentIndex) {
                     displayHTML += `<span class="correct">${currentSentence[i]}</span>`;
@@ -195,6 +198,7 @@ hide: true
         }
 
         function endGame() {
+            // calculate wpm / time elapsed
             endTime = new Date();
             const timeElapsed = (endTime - startTime) / 1000; // in seconds
             const wordsTyped = currentSentence.split(' ').length;
