@@ -45,3 +45,10 @@ Welcome to my AP CSA website! Here’s a little about myself:
 Feel free to reach out to me at connect.rahulv@gmail.com for anything!
 
 ---
+<script src="https://utteranc.es/client.js"
+        repo="rahulverma13/rahul_2025"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
