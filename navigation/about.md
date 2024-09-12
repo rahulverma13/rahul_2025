@@ -8,6 +8,17 @@ permalink: /about/
 
 Welcome to my AP CSA website! Here’s a little about myself:
 
+## Conversation Starter
+
+Lived in San Diego, CA my whole life, Indian Heritage
+
+<div style="display: flex; gap: 10px;">
+    <img src="https://flagcdn.com/w40/us.png" width="40" alt="USA flag">
+    <img src="https://flagcdn.com/w40/ca.png" width="40" alt="California flag">
+    <img src="https://flagcdn.com/w40/in.png" width="40" alt="India flag">
+</div>
+
+
 ## <span style="color: #00A36C;">Interests and Activities</span>
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
