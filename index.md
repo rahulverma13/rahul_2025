@@ -50,6 +50,11 @@ hide: true
     }
     .section h2 {
         color: #333;
+        transition: transform 0.3s ease, font-size 0.3s ease; /* Smooth transition for transform and font-size */
+    }
+    .section h2:hover {
+        transform: scale(1.1) rotate(5deg); /* Scale up and rotate slightly */
+        font-size: 2.2em; /* Increase the font size on hover */
     }
     .section img {
         float: right;
