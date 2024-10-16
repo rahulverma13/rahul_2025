@@ -112,6 +112,13 @@ hide: true
     <div class="intro">
         <p>Thank you for coming over to my website! Below I've listed some of my recent programming experiences that I'd like to highlight. If you want to learn more about me, head on over to my about me page.</p>
     </div>
+    <div class="section">
+        <h2>College Board Learnings</h2>
+        <img src="./images/java.png" alt="REHS Image">
+        <p>
+            In the first few weeks of Trimester 1, I spent a lot of time learning the lessons for the AP CSA exam. I really enjoyed working with my group to create fun activities for our lesson (Unit 2), completing other homework hacks, and more. For more information, see <a href="/rahul_2025/csa">my blog</a> with a summary of each unit, a meme to go along with it 😉, and a project demonstrating my learnings!
+        </p>
+    </div>
 
     <div class="section">
         <h2>REHS</h2>
